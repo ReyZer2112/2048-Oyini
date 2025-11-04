@@ -158,49 +158,71 @@
     <div id="modalContent">
         <h2 id="modalTitle">2048 O‘yini haqida</h2>
         <p id="modalDesc">
-            2048 o‘yini - bu raqamlarni birlashtirib, 2048 soniga yetishga harakat qiladigan qiziqarli va o‘ylab o‘ynash talab qiladigan o‘yin.<br><br>
-            O‘yinni boshqarish uchun klaviaturadagi o‘q tugmalaridan foydalaning: ←, →, ↑, ↓.<br>
-            Harakatlar soni va ball yuqorida ko‘rsatilgan.<br><br>
-            O‘yin davomida raqamlar birlashib, kattaroq qiymatga ega bo‘ladi.<br>
-            2048 ga yetganingizda g‘alaba xabari chiqadi.<br><br>
-            Yana boshlash uchun “Qaytadan boshlash” tugmasini bosing.<br><br>
-            O‘zingizga omad tilaymiz!
+            🎮 <b>2048 o‘yini</b> — bu raqamlarni birlashtirib, <b>2048 soniga yetish</b> uchun aql va strategiya talab qiladigan o‘yin.<br><br>
+🧠 Har bir harakat o‘ylab bajarilishi kerak, chunki noto‘g‘ri bir qadam — hamma narsani o‘zgartiradi!<br><br>
+⬅️➡️⬆️⬇️ <b>Boshqaruv:</b><br>
+Klaviaturadagi o‘q tugmalari yoki telefonda barmoqlar bilan <b>chap, o‘ng, yuqoriga, pastga</b> surish orqali o‘ynang.<br><br>
+📊 <b>Ko‘rsatkichlar:</b><br>
+— Ball va harakatlar soni yuqorida ko‘rsatiladi.<br>
+— Yangi plitkalar har harakatdan so‘ng paydo bo‘ladi.<br><br>
+💥 <b>O‘yin maqsadi:</b><br>
+Bir xil raqamlarni birlashtirib, <b>kattaroq qiymatlar</b> hosil qiling.<br>
+2048 raqamiga yetganingizda — <b>siz g‘olibsiz! 🏆</b><br><br>
+🔁 <b>Yangi o‘yin boshlash uchun</b> — “<b>Qaytadan boshlash</b>” tugmasini bosing.<br><br>
+✨ Omad va sabr tilaymiz!<br>
+<b>2048 — bu sonlar orasidagi mantiqiy jang! 🔢🔥</b>
+
         </p>
         <button id="closeModal" class="closeModalBtn">Yopish</button>
     </div>
 </div>
 
 <!-- Yaratuvchi haqida Modal -->
-<div id="creatorModal" role="dialog" aria-modal="true" aria-labelledby="creatorTitle" aria-describedby="creatorDesc">
-    <div id="creatorContent">
-        <h2 id="creatorTitle">Yaratuvchi haqida</h2>
-        <pre style="font-family: monospace; white-space: pre-wrap; line-height: 1.4; font-size: 14px;">
-╔═══════ஜ۩۞۩ஜ═══════╗  
-
-MENI QIDIRISHING SHART EMAS,  
-     MANA LINKLARIM:
-
-🌐Instagram: @reyzer2112
-https://www.instagram.com/reyzer2112?igsh=a2Q2aTg2eDVibWJi
-
-🌐YouTube: @ReyZer-2112
-https://www.youtube.com/@ReyZer-2112
-
-🙋🏻 Snapchat: reyzer2112
-https://www.snapchat.com/add/reyzer2112?share_id=Ha5ktm0sdkc&locale=ru-RU
-
-🎮Roblox: Zoh_1rshox020315
-https://www.roblox.com/users/4669071068/profile
-
-🌐Telegram: @ReyZer2112
-
-╚═══════ஜ۩۞۩ஜ═══════╝
-
-Har doim yangilikda bo‘l!
-        </pre>
-        <button id="closeCreatorModal" class="closeModalBtn">Yopish</button>
+<div id="creatorModal" role="dialog" aria-modal="true" aria-labelledby="creatorTitle" aria-describedby="creatorDesc" style="display:none; position:fixed; z-index:1000; left:0; top:0; width:100%; height:100%; background:rgba(0,0,0,0.5); justify-content:center; align-items:center; padding:10px;">
+    <div id="creatorContent" style="background:#fff; padding:20px; border-radius:15px; max-width:400px; width:90%; box-shadow:0 5px 20px rgba(0,0,0,0.3); overflow-y:auto; font-family:Arial, sans-serif;">
+        
+        <h2 id="creatorTitle" style="text-align:center; font-size:22px; margin-bottom:15px;">👤 Yaratuvchi haqida</h2>
+        
+        <div id="creatorDesc" style="font-size:15px; line-height:1.6; color:#333;">
+            
+            ╔═══════ஜ۩۞۩ஜ═══════╗<br><br>
+            
+            <b>MENI QIDIRISHING SHART EMAS,</b><br>
+            <b>MANA LINKLARIM:</b><br><br>
+            
+            <a href="https://www.instagram.com/reyzer2112?igsh=a2Q2aTg2eDVibWJi" target="_blank" style="text-decoration:none; color:#E1306C; font-weight:bold;">
+                 <i class="fab fa-instagram" style="color:#E1306C;"></i> Instagram: @reyzer2112
+            </a><br><br>
+            
+            <a href="https://www.youtube.com/@ReyZer-2112" target="_blank" style="text-decoration:none; color:#FF0000; font-weight:bold;">
+                 <i class="fab fa-youtube" style="color:#FF0000;"></i> YouTube: @ReyZer-2112
+            </a><br><br>
+            
+            <a href="https://www.snapchat.com/add/reyzer2112?share_id=Ha5ktm0sdkc&locale=ru-RU" target="_blank" style="text-decoration:none; color:#FFFC00; font-weight:bold;">
+                 <i class="fab fa-snapchat" style="color:#FFFC00;"></i> Snapchat: reyzer2112
+            </a><br><br>
+            
+            <a href="https://www.roblox.com/users/4669071068/profile" target="_blank" style="text-decoration:none; color:#7289DA; font-weight:bold;">
+                 🎮 Roblox: Zoh_1rshox020315
+            </a><br><br>
+            
+            <a href="https://t.me/ReyZer2112" target="_blank" style="text-decoration:none; color:#0088cc; font-weight:bold;">
+                 <i class="fab fa-telegram" style="color:#0088cc;"></i> Telegram: @ReyZer2112
+            </a><br><br>
+            
+            ╚═══════ஜ۩۞۩ஜ═══════╝<br><br>
+            
+            <b>Har doim yangilikda bo‘l! ✨</b>
+            
+        </div>
+        
+        <button id="closeCreatorModal" style="margin-top:20px; width:100%; padding:12px; font-size:16px; background:#8f7a66; color:white; border:none; border-radius:10px; cursor:pointer;">Yopish</button>
+    
     </div>
 </div>
+
+<!-- Font Awesome CDN (ikonlar uchun) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
 <script>
     const size = 4;
@@ -353,6 +375,30 @@ Har doim yangilikda bo‘l!
         else if (e.key === "ArrowUp") move("up");
         else if (e.key === "ArrowDown") move("down");
     }
+
+// === 📱 Mobil uchun sensor boshqaruvi ===
+let startX, startY;
+const boardDiv = document.getElementById("board");
+
+boardDiv.addEventListener("touchstart", e => {
+    startX = e.touches[0].clientX;
+    startY = e.touches[0].clientY;
+}, { passive: true });
+
+boardDiv.addEventListener("touchend", e => {
+    let dx = e.changedTouches[0].clientX - startX;
+    let dy = e.changedTouches[0].clientY - startY;
+
+    if (Math.abs(dx) > Math.abs(dy)) {
+        if (dx > 30) move("right");
+        else if (dx < -30) move("left");
+    } else {
+        if (dy > 30) move("down");
+        else if (dy < -30) move("up");
+    }
+}, { passive: true });
+// === 📱 END ===
+
 
     document.getElementById("restart").addEventListener("click", () => {
         startGame();
